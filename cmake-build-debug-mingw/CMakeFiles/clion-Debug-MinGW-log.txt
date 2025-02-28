@@ -1,0 +1,25 @@
+"C:\Users\Dinh Tien Vu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Dinh Tien Vu/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\TU Darmstadt\Semester3\Parallele Programmierung\lab_2" -B "D:\TU Darmstadt\Semester3\Parallele Programmierung\lab_2\cmake-build-debug-mingw"
+CMake Warning at cmake/Cache.cmake:29 (message):
+  ccache is enabled but was not found.  Not using it
+Call Stack (most recent call first):
+  CMakeLists.txt:18 (include)
+
+
+CMake Deprecation Warning at cmake-build-debug-mingw/_deps/cli11-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- git version: v1.6.1 normalized to 1.6.1
+-- Version: 1.6.1
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
+-- Configuring done (8.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/TU Darmstadt/Semester3/Parallele Programmierung/lab_2/cmake-build-debug-mingw
